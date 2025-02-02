@@ -48,9 +48,9 @@ class Client(Thread):
 
 # Set up the Gemini API key
 
-client = genai.Client(api_key="AIzaSyCRsM_WjH25l9yKra4QTTmTJYB68vl6cCw")
+client = genai.Client(api_key="gemini_api_key")
 # Initialize ThingESP Client
-thing = Client("MAhsanZafar", "WAAI", "MAhsanZafar")
+thing = Client('username', 'projectName', 'password')
 
 # Define the callback function to handle incoming messages
 def handleResponse(query):
